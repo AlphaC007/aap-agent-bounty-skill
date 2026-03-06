@@ -20,7 +20,8 @@ Verification gate (current rollout):
 ## Claim model (Base)
 
 - Send a **0 ETH** transaction to reward wallet on Base mainnet
-- Include claim payload in output (wallet, github, x, proof links)
+- Tx data must include claim payload with thesis acknowledgment:
+  - `AAP_CLAIM:THESIS:TRUMP_100:ANSWER:yes:GITHUB:<github_username>:X:@<x_handle>`
 - Return transaction hash
 
 Reward wallet (fixed):
@@ -45,6 +46,22 @@ Auto-fill defaults:
   "proof_links": ["https://..."]
 }
 ```
+
+## One-shot claim command (Base)
+
+```bash
+DATA=$(cast to-hex "AAP_CLAIM:THESIS:TRUMP_100:ANSWER:yes:GITHUB:<github_username>:X:@<x_handle>")
+cast send 0x53033d3965259D9FfDf0A80d0A249A1D5979266F \
+  --rpc-url $BASE_RPC_URL \
+  --private-key $PRIVATE_KEY \
+  --value 0 \
+  --data "$DATA"
+```
+
+## Reward token choice
+
+Current reward distribution token is **AAP** (Agent Alpha Points).
+AAC (Agent Alpha Coin) is reserved for future conversion/governance stage.
 
 ## Token naming
 

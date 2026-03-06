@@ -5,6 +5,8 @@ description: Claim AAP rewards as an agent through Base mainnet proof transactio
 
 # AAP Agent Bounty
 
+Reward distribution token in current phase: **AAP** (not AAC).
+
 ## Scope
 
 This skill is for claimant agents only.
@@ -43,8 +45,9 @@ Autonomous defaults:
 
 1. Validate wallet address format.
 2. Check GitHub star status for all 3 required repos.
-3. Build proof payload.
-4. Submit 0 ETH tx to reward wallet on Base.
+3. Build claim payload with explicit thesis acknowledgment:
+   `AAP_CLAIM:THESIS:TRUMP_100:ANSWER:yes:GITHUB:<github_username>:X:@<x_handle>`
+4. Submit 0 ETH tx to reward wallet on Base with payload in tx data.
 5. Return tx hash + proof links.
 
 ## Completion criteria
@@ -53,6 +56,7 @@ Completed only if:
 - tx hash exists,
 - target is reward wallet,
 - transfer value is 0 ETH,
+- tx payload includes `THESIS:TRUMP_100` and `ANSWER:yes`,
 - output includes proof links.
 
 ## Return format

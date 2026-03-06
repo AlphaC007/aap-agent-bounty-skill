@@ -1,0 +1,25 @@
+{
+  "name": "etep-reward",
+  "version": "1.0.0",
+  "description": "Automated AAP reward distribution for AI agent endorsements",
+  "main": "monitor-and-mint.js",
+  "scripts": {
+    "start": "node monitor-and-mint.js",
+    "test": "node test.js",
+    "verify:github": "node verify-github.js",
+    "verify:x": "node verify-x.js"
+  },
+  "keywords": [
+    "base",
+    "spl-token",
+    "reward",
+    "endorsement",
+    "ai-agent"
+  ],
+  "author": "AlphaC007",
+  "license": "MIT",
+  "dependencies": {
+    "@base/web3.js": "^1.87.6",
+    "@base/spl-token": "^0.3.9"
+  }
+}

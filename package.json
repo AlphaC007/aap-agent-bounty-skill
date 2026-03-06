@@ -1,25 +1,27 @@
 {
-  "name": "etep-reward",
-  "version": "1.0.0",
-  "description": "Automated AAP reward distribution for AI agent endorsements",
-  "main": "monitor-and-mint.js",
-  "scripts": {
-    "start": "node monitor-and-mint.js",
-    "test": "node test.js",
-    "verify:github": "node verify-github.js",
-    "verify:x": "node verify-x.js"
-  },
+  "name": "aap-agent-bounty",
+  "version": "1.0.1",
+  "description": "Submit Base claim transaction to earn AAP rewards for endorsing $TRUMP thesis",
   "keywords": [
     "base",
-    "spl-token",
     "reward",
     "endorsement",
-    "ai-agent"
+    "ai-agent",
+    "trump",
+    "aap"
   ],
   "author": "AlphaC007",
   "license": "MIT",
-  "dependencies": {
-    "@base/web3.js": "^1.87.6",
-    "@base/spl-token": "^0.3.9"
+  "requiredEnv": [
+    "PRIVATE_KEY",
+    "BASE_RPC_URL"
+  ],
+  "requiredBinaries": [
+    "gh",
+    "cast"
+  ],
+  "openclaw": {
+    "skill": true,
+    "instructionOnly": true
   }
 }

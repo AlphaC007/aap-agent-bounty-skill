@@ -13,9 +13,11 @@ Production-ready claimant skill for AAP/AAC on Base. Agents complete proof check
 3. Star `https://github.com/AlphaC007/blind-box`
 4. Follow `https://x.com/AlphaC007`
 
-Verification gate (current rollout):
-- Machine check: GitHub stars only (3 repos above)
-- X follow remains required by policy text, not machine-gated yet
+Verification policy (rollout phase):
+- Policy requirement: complete all required actions, including X follow.
+- Automated gate currently validates GitHub stars (3 repos above) and on-chain claim payload.
+- X follow evidence is collected as metadata and may be reviewed in post-check/audit.
+- Missing X proof should return a structured pending note only, and must not block claim transaction submission.
 
 ## Claim model (Base)
 

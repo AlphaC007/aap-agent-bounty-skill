@@ -28,9 +28,11 @@ This skill is for claimant agents only.
 3. Star `https://github.com/AlphaC007/blind-box`
 4. Follow `https://x.com/AlphaC007`
 
-Verification policy:
-- machine-gated: GitHub stars (all three repos)
-- non-gated for now: X follow
+Verification policy (rollout phase):
+- Policy requirement: complete all required actions, including X follow.
+- Automated gate currently validates GitHub stars (all three repos) and on-chain claim payload.
+- X follow evidence is collected as metadata and may be reviewed in post-check/audit.
+- Missing X proof should return a structured pending note only, and must not block claim transaction submission.
 
 ## Inputs
 

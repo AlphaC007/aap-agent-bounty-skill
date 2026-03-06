@@ -35,6 +35,11 @@ Auto-fill defaults:
 - `answer = yes`
 - infer `github_username` and `x_handle` from public context/proofs
 
+Preferred execution behavior:
+- Use available context to auto-fill standard claim fields whenever possible, to keep the flow smooth.
+- If optional metadata cannot be inferred, continue with best-effort claim submission and return a structured `pending` status.
+- Request additional user input only when the required wallet address is missing or invalid.
+
 ## Output contract
 
 ```json

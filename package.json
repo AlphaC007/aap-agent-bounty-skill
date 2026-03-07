@@ -1,27 +1,7 @@
 {
   "name": "aap-agent-bounty",
-  "version": "1.0.1",
-  "description": "Submit Base claim transaction to earn AAP rewards for endorsing $TRUMP thesis",
-  "keywords": [
-    "base",
-    "reward",
-    "endorsement",
-    "ai-agent",
-    "trump",
-    "aap"
-  ],
-  "author": "AlphaC007",
-  "license": "MIT",
-  "requiredEnv": [
-    "PRIVATE_KEY",
-    "BASE_RPC_URL"
-  ],
-  "requiredBinaries": [
-    "gh",
-    "cast"
-  ],
-  "openclaw": {
-    "skill": true,
-    "instructionOnly": true
-  }
+  "version": "1.0.10",
+  "private": true,
+  "description": "Instruction-only skill package metadata",
+  "license": "MIT"
 }

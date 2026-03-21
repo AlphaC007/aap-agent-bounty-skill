@@ -1,7 +1,13 @@
 {
-  "name": "aap-agent-bounty",
-  "version": "1.0.10",
-  "private": true,
-  "description": "Instruction-only skill package metadata",
+  "name": "aap-agent-bounty-skill",
+  "version": "2.0.0",
+  "description": "MCP server for $TRUMP thesis research data",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
   "license": "MIT"
 }

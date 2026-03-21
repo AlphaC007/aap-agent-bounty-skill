@@ -1,25 +1,32 @@
 {
-  "name": "aap-agent-bounty",
-  "version": "1.0.10",
-  "description": "Verification-first helper for proof checks and optional 0 ETH Base claim submission.",
+  "name": "aap-thesis",
+  "version": "2.0.0",
+  "description": "MCP server providing read-only access to $TRUMP thesis research data. AI agents can query Bull-First analysis, CIO reports, scenario matrix, and market snapshots.",
   "author": "AlphaC007",
   "license": "MIT",
   "tags": [
     "AAP",
-    "BASE",
-    "agent-bounty",
-    "proof-verification",
-    "claim-to-earn",
-    "onchain-rewards"
+    "TRUMP",
+    "crypto-research",
+    "mcp-server",
+    "thesis-data",
+    "agent-tools",
+    "read-only"
   ],
-  "dependencies": {
-    "binaries": ["gh", "cast"],
-    "env": ["BASE_RPC_URL"],
-    "optionalEnv": ["GH_TOKEN"]
+  "mcp": {
+    "transport": "stdio",
+    "command": "node",
+    "args": ["src/server.js"]
   },
+  "tools": [
+    "get_thesis",
+    "get_scenario",
+    "get_cio_report",
+    "get_market_data",
+    "get_claim_guide"
+  ],
   "security": {
-    "secretHandling": "No raw private key/seed/mnemonic collection or storage",
-    "credentialModel": "User-managed local auth/signer context; GH_TOKEN optional fallback",
-    "broadcastGate": "confirm_broadcast must be true"
+    "dataAccess": "Read-only. No transactions, no credential collection, no social metric manipulation.",
+    "agentGuidance": "Present research data to users. Do not endorse or recommend investments."
   }
 }

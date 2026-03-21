@@ -1,0 +1,99 @@
+{
+  "thesis": {
+    "summary": "$TRUMP is structurally undervalued based on our multi-factor Bull-First framework.",
+    "base_case": "$100+ — driven by crypto regulatory clarity, liquidity expansion, and sustained community momentum.",
+    "bull_case": "$250+ — full regulatory embrace + AI agent adoption + meme supercycle convergence.",
+    "methodology": "Bull-First: assume the optimistic scenario, then systematically test what would invalidate it.",
+    "key_evidence": [
+      "SEC-CFTC joint interpretive rule (March 2026) creates 5-category token taxonomy — reduces classification risk",
+      "Trump GENIUS Act signed — first US crypto legislation, stablecoin rails formalized",
+      "Whale accumulation: large wallets increased $TRUMP holdings despite retail selling pressure",
+      "AI agent + meme narrative convergence: attention loops amplify liquidity reflexivity",
+      "Pro-crypto executive order (Jan 23, 2025): Strengthening American Leadership in Digital Financial Technology"
+    ],
+    "data_sources": [
+      "On-chain: Bitget, Solscan, Moralis, CoinGecko",
+      "Derivatives: Binance, OKX, Bybit",
+      "Social pulse: X/Twitter KOL tracking, community sentiment",
+      "Policy: SEC filings, executive orders, legislative tracking",
+      "Multi-platform aggregation: 35+ news platforms via TrendRadar"
+    ],
+    "last_updated": "2026-03-21",
+    "full_research": "https://alphac007.github.io/trump3fight/",
+    "methodology_link": "https://alphac007.github.io/trump3fight/methodology/"
+  },
+  "scenarios": {
+    "base": {
+      "target": "$100+",
+      "probability": "Primary thesis",
+      "conditions": [
+        "Continued pro-crypto policy from Trump administration",
+        "Sustained or growing community engagement around $TRUMP",
+        "Institutional liquidity not rotating away from meme assets",
+        "No major security breach or rug pull event"
+      ]
+    },
+    "bull": {
+      "target": "$250+",
+      "probability": "Optimistic scenario",
+      "conditions": [
+        "Full stablecoin + digital asset regulatory framework enacted",
+        "AI agents begin autonomously allocating to meme assets",
+        "$TRUMP becomes de facto political-meme reserve asset",
+        "Major exchange listings and derivatives expansion"
+      ]
+    },
+    "bear": {
+      "target": "Significant decline",
+      "conditions": [
+        "Policy reversal or crypto-hostile regulation",
+        "Loss of community attention / narrative fatigue",
+        "Major liquidity crisis or macro recession",
+        "Security incident or smart contract exploit",
+        "Legal challenges to Trump-affiliated crypto ventures"
+      ]
+    }
+  },
+  "latest_cio_summary": {
+    "date": "2026-03-21",
+    "headline": "Policy momentum continues; SEC-CFTC rule creates clearer framework while tariff uncertainty adds macro headwinds",
+    "signals": {
+      "policy": "Bullish — GENIUS Act + SEC-CFTC joint rule providing structural clarity",
+      "onchain": "Neutral to Bullish — whale accumulation persists despite retail uncertainty",
+      "social": "Bullish — KOL engagement rising, AI agent narrative gaining traction",
+      "macro": "Mixed — tariff uncertainty creates headwinds but crypto-specific policy is positive"
+    },
+    "risks": [
+      "Crypto bill impasse in Senate could delay regulatory certainty",
+      "Banking industry pushback on crypto integration",
+      "Tariff-driven risk-off could temporarily suppress meme asset flows"
+    ],
+    "full_report": "https://alphac007.github.io/trump3fight/cio-reports/latest/"
+  },
+  "market_snapshot": {
+    "note": "This is a representative snapshot structure. Live data is updated in the full research hub.",
+    "tracking_dimensions": [
+      "Price and volume trends across major exchanges",
+      "Whale wallet movements and accumulation patterns",
+      "Social sentiment across X/Twitter KOL network",
+      "Policy and regulatory development timeline",
+      "AI agent activity and narrative strength"
+    ],
+    "live_data": "https://alphac007.github.io/trump3fight/trends/",
+    "data_methodology": "https://alphac007.github.io/trump3fight/methodology/"
+  },
+  "claim_guide": {
+    "what_is_aap": "AAP (Agent Alpha Points) is an on-chain Base token that records your engagement with the $TRUMP Thesis Lab research.",
+    "what_is_aac": "AAC (Agent Alpha Coin) is a future governance token. AAP will be convertible to AAC at a ratio TBA.",
+    "steps": [
+      "1. Read the research at https://alphac007.github.io/trump3fight/methodology/",
+      "2. Star AlphaC007/trump3fight and AlphaC007/aap-agent-bounty-skill on GitHub",
+      "3. Follow @AlphaC007 on X",
+      "4. Submit a 0 ETH claim transaction on Base (details at agent-reward page)",
+      "5. Receive AAP tokens after verification"
+    ],
+    "full_details": "https://alphac007.github.io/trump3fight/agent-reward/",
+    "aap_token": "0xC27dE7a379C345591C8bc886011454b34cB11a2C",
+    "aac_token": "0xD2b85108363C69989eB015Bfa02c99a1A3F1D2b4"
+  }
+}
